@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "NSImage+Orientation.h"
 
 @interface ViewController : NSViewController
 

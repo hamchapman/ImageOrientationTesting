@@ -13,6 +13,7 @@
 		33FE78D42089441200C08EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33FE78D22089441200C08EAD /* Main.storyboard */; };
 		33FE78D72089441200C08EAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FE78D62089441200C08EAD /* main.m */; };
 		33FE78DF208949CC00C08EAD /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33FE78DE208949CC00C08EAD /* test.jpg */; };
+		33FE78E2208A8F9D00C08EAD /* NSImage+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33FE78E1208A8F9D00C08EAD /* NSImage+Orientation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		33FE78D62089441200C08EAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33FE78D82089441200C08EAD /* OrientationTesting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrientationTesting.entitlements; sourceTree = "<group>"; };
 		33FE78DE208949CC00C08EAD /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		33FE78E0208A8F9D00C08EAD /* NSImage+Orientation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+Orientation.h"; sourceTree = "<group>"; };
+		33FE78E1208A8F9D00C08EAD /* NSImage+Orientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Orientation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				33FE78CB2089440F00C08EAD /* AppDelegate.m */,
 				33FE78CD2089440F00C08EAD /* ViewController.h */,
 				33FE78CE2089440F00C08EAD /* ViewController.m */,
+				33FE78E0208A8F9D00C08EAD /* NSImage+Orientation.h */,
+				33FE78E1208A8F9D00C08EAD /* NSImage+Orientation.m */,
 				33FE78D02089441200C08EAD /* Assets.xcassets */,
 				33FE78D22089441200C08EAD /* Main.storyboard */,
 				33FE78D52089441200C08EAD /* Info.plist */,
@@ -146,6 +151,7 @@
 				33FE78CF2089440F00C08EAD /* ViewController.m in Sources */,
 				33FE78D72089441200C08EAD /* main.m in Sources */,
 				33FE78CC2089440F00C08EAD /* AppDelegate.m in Sources */,
+				33FE78E2208A8F9D00C08EAD /* NSImage+Orientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
